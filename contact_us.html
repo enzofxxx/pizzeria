@@ -13,7 +13,7 @@
                 <img src="" alt="Main Logo">
             </section>
             <section>
-                <a href="#">Home</a>
+                <a href="./index.html">Home</a>
                 <a href="./our_menu.html">Our Menu</a>
                 <a href="./about_us.html">About Us</a>
                 <a href="./contact_us.html">Contact Us</a>
@@ -27,16 +27,17 @@
     </header>
     <main>
         <section class="container" id="form">
-            <form action="">
+            <form action="mailto:tadas@blinda.com?subject=Due to contact.">
                 <label for="firstname">Enter your name:</label>
                 <input type="text" name="lastname" id="firstname" placeholder="Tadas" required>
-                <label for="lastname"></label>
+                <label for="lastname">Enter your lastname:</label>
                 <input type="text" name="lastname" id="lastname" placeholder="Blinda" required>
                 <label for="emailfrom">Email</label>
-                <input type="email" name="emailfrom" id="emailfrom">
-                <label for="message"></label>
+                <input type="email" name="emailfrom" id="emailfrom" placeholder="info@example.com">
+                <label for="message">Enter your message:</label>
                 <textarea name="message" id="message"></textarea>
-                <input type="submit" value="submit">
+                <input class="myButton" type="submit" value="Send">
+                <input class="myButton" type="reset" value="Reset">
             </form>
         </section>
         <section class="container">
