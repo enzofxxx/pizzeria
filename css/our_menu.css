@@ -110,6 +110,7 @@ main section p:first-child {
     border-radius: 20px;
     box-shadow: #979494 2px 2px;
     border: 1px solid #D0CEC8;
+    background-color: #e0ddd4;
 }
 .food_plates > div > img{
     width: 200px;
