@@ -1,0 +1,124 @@
+body {
+    background-color: #fffcf5;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav section {
+    display: inline-block;
+    align-items: center;
+    flex: 1;
+}
+a {
+    text-decoration: none;
+}
+nav section:nth-child(2) {
+    flex: 2;
+    display: flex;
+    justify-content: space-around;
+}
+nav section:nth-child(3) {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+}
+a.active {
+    color: #FB4A36;
+    padding: 20px;
+    border-bottom: 2px solid #FB4A36;
+}
+
+main {
+    display: flex;
+}
+
+main section p:first-child {
+    border-left: 2px solid #FB4A36;
+    border-right: 2px solid #FB4A36;
+    border-radius: 50px;
+    padding: 5px 10px;
+    width: fit-content;
+    background-color: rgba(251,74,54,0.05);
+    color: #FB4A36;
+    font-size: 24px;
+}
+
+.bottom {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.bottom div:first-child {
+    padding: 15px 40px;
+    background-color: #FB4A36;
+    border-radius: 50px;   
+    color: #fff;
+}
+
+.bottom div:last-child {
+    display: flexbox;
+    align-items: center;
+}
+
+.bottom div span {
+    color: #FB4A36;
+}
+
+.bottom div img {
+    margin-bottom: -3px;
+}
+
+.nearfooter {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nearfooter div{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid rgb(172, 171, 171);
+    border-radius: 50px;
+    gap: 10px;
+}
+
+.nearfooter>div>div {
+    padding: 20px;
+    width: fit-content;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+
+footer {
+    background-color: #131313;
+    margin-top: 30px;
+}
+
+footer section:last-child {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+footer section div:first-child {
+    display: flex;
+    gap: 20px;
+    padding: 20px 0 20px 50px;
+}
+
+footer section div:last-child {
+    display: flex;
+    gap: 20px;
+    padding: 20px 50px 20px 0px;
+}
+
+footer section div a{
+    color: #fff;
+    text-decoration: none;
+}
