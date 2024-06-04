@@ -11,7 +11,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* margin: 0 10px 0 10px; */
+    margin: 0 7px 0 7px;
 }
 nav section {
     display: inline-block;
