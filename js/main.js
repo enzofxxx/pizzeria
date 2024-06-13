@@ -2,12 +2,10 @@
 // imports
 // import __ from './validation/formValidator.js';
 import renderHeader from './layout/header.js';
-import renderCareer from './layout/career.js';
-import renderContactUs from './layout/contactUs.js';
+import renderJoinOurTeam from './layout/joinOurTeam.js';
 import renderFooter from './layout/footer.js';
 
 // call up function
 renderHeader();
-renderCareer();
-renderContactUs();
+renderJoinOurTeam();
 renderFooter();
