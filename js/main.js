@@ -1,10 +1,13 @@
-"use strict";
+"USE STRICT";
 // imports
 // import __ from './validation/formValidator.js';
-import forms from './layout/career.js';
 import renderHeader from './layout/header.js';
-// import __ from './layout/contactUs.js;
+import renderCareer from './layout/career.js';
+import renderContactUs from './layout/contactUs.js';
+import renderFooter from './layout/footer.js';
 
 // call up function
-forms();
 renderHeader();
+renderCareer();
+renderContactUs();
+renderFooter();

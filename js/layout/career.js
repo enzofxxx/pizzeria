@@ -1,8 +1,8 @@
 "USE STRICT";
 
-function forms(){
+function renderCareer(){
 
 
 }
 
-export default forms;
+export default renderCareer;
